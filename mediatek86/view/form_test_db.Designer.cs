@@ -1,6 +1,6 @@
 ﻿namespace mediatek86
 {
-    partial class Form1
+    partial class form_test_db
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,13 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lstValeurs = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // lstValeurs
+            // 
+            this.lstValeurs.AccessibleName = "lstValeurs";
+            this.lstValeurs.FormattingEnabled = true;
+            this.lstValeurs.Location = new System.Drawing.Point(181, 99);
+            this.lstValeurs.Name = "lstValeurs";
+            this.lstValeurs.Size = new System.Drawing.Size(395, 186);
+            this.lstValeurs.TabIndex = 0;
+            this.lstValeurs.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // form_test_db
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lstValeurs);
+            this.Name = "form_test_db";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox lstValeurs;
     }
 }
 
