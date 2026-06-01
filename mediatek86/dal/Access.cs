@@ -8,7 +8,7 @@ using System.Configuration;
 namespace mediatek86.dal
 {
     /// <summary>
-    /// Singleton : classe d'accès à BddManager
+    /// Singleton : classe d'accès à BddManager.
     /// </summary>
     public class Access
     {

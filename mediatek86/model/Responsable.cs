@@ -15,7 +15,7 @@ namespace mediatek86.model
         public string Pwd { get; }
 
         /// <summary>
-        /// Valorise les propriétés
+        /// Valorise les propriétés.
         /// </summary>
         /// <param name="login"></param>
         /// <param name="pwd"></param>
