@@ -17,7 +17,7 @@ namespace mediatek86.dal
         /// </summary>
         private static readonly string connectionName = "mediatek86.Properties.Settings.mediatek86ConnectionString";
         /// <summary>
-        /// instance unique de la classe
+        /// instance unique de la classe.
         /// </summary>
         private static Access instance = null;
         /// <summary>
