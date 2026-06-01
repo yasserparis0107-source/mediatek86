@@ -21,7 +21,7 @@ namespace mediatek86.dal
         /// </summary>
         private static Access instance = null;
         /// <summary>
-        /// Getter sur l'objet d'accès aux données
+        /// Getter sur l'objet d'accès aux données.
         /// </summary>
         public BddManager Manager { get; }
 
