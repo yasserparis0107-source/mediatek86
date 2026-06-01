@@ -43,6 +43,7 @@ Excepté 'bddmanager' qui est indépendant de l'application (réutilisable dans 
 
 
 ## Installation
+pour installer l'application utiliser l'installeur mediatek86Installeur.msi. suivre le wizard. un raccourci sera créé sur le menu démarrer et sur le bureau.
 Il est possible de tester l'application étape par étape (commit par commit) ou de tester directement la version finale.<br>
 Pour tester une version dans un environnement de développement, il faut d'abord installer les outils suivants :<br>
 . SGBDR MySQL (par exemple en installant WAMP ou un logiciel similaire)<br>
