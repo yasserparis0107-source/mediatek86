@@ -13,7 +13,7 @@ namespace mediatek86.dal
     public class Access
     {
         /// <summary>
-        /// nom de connexion à la bdd
+        /// nom de connexion à la bdd.
         /// </summary>
         private static readonly string connectionName = "mediatek86.Properties.Settings.mediatek86ConnectionString";
         /// <summary>
