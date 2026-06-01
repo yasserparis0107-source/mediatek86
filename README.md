@@ -49,5 +49,5 @@ Pour tester une version dans un environnement de développement, il faut d'abord
 . SGBDR MySQL (par exemple en installant WAMP ou un logiciel similaire)<br>
 . De préférence un IDE pour manipuler le code (cette application a été réalisée sous Visual Studio 2022)<br> 
 Il faut ensuite :<br>
-. Dans MySQL, exécuter le script contenu dans mediatek86.sql (présent en racine du dépôt) pour créer et remplir la BDD.<br>
+. Dans MySQL, exécuter le script contenu dans db_mediatek86_perso.sql (présent en racine du dépôt) pour créer et remplir la BDD.<br>
 . Récupérer le code du commit voulu, l'ouvrir dans l'IDE et l'exécuter.
