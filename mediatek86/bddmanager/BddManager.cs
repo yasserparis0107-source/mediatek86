@@ -5,7 +5,7 @@ using MySql.Data.MySqlClient;
 namespace mediatek86.bddmanager
 {
     /// <summary>
-    /// Singleton : connexion à la base de données et exécution des requêtes
+    /// Singleton : connexion à la base de données et exécution des requêtes.
     /// </summary>
     public class BddManager
     {
