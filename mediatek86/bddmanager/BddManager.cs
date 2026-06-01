@@ -14,7 +14,7 @@ namespace mediatek86.bddmanager
         /// </summary>
         private static BddManager instance = null;
         /// <summary>
-        /// objet de connexion à la BDD à partir d'une chaîne de connexion
+        /// objet de connexion à la BDD à partir d'une chaîne de connexion.
         /// </summary>
         private readonly MySqlConnection connection;
 
